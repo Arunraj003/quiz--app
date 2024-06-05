@@ -93,3 +93,27 @@ body {
 .restartlast {
   margin-top: 20px;
 }
+
+@media screen and (max-width: 768px) {
+  .app {
+    padding: 10vw;
+    margin: 5vw;
+  }
+
+  .question button {
+    font-size: 6vw;
+    margin-top: 5vw;
+    height: 12vw;
+  }
+
+  .prev,
+  .next,
+  .restart,
+  .restartlast {
+    font-size: 5vw;
+    padding: 0 2vw;
+    border-radius: 1vw;
+    margin: 5vw;
+    height: 8vw;
+  }
+}
